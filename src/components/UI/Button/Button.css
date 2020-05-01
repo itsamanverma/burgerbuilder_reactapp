@@ -1,0 +1,44 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:first-of-type {
+    margin-left: none;
+    padding-left: none;
+}
+
+.Success {
+    background-color: #5C9210;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    color: white;
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #5C9210;
+}
+
+.Danger {
+    background-color: #944317;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    color: white;
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #944317;
+}
