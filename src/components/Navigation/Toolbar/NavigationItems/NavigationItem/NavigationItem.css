@@ -21,21 +21,18 @@
 
 @media (min-width:500px) {
     .NavigationItem {
-        margin:   0;
-        box-sizing: border-box;
+        margin: 0;
         display: flex;
+        width: auto;
         height: 100%;
         align-items: center;
     }
     
     .NavigationItem a {
         color:whitesmoke;
-        text-decoration: none;
         height: 100%;
         padding: 16px 10px;
         border-bottom: 4px solid transparent;
-        box-sizing: border-box;
-        display: block;
     }
     
     .NavigationItem a:hover,
